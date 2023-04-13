@@ -1,0 +1,8 @@
+27. systemctl status mysql
+            БД - pet_nursery 
+             пользователь - pet_client
+             пароль - 123
+mysql> show databases;
+
+mysql>create database human_friends;
+mysql> use human_friends;
