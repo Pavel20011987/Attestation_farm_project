@@ -1,0 +1,15 @@
+ 12  wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+   13  sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+   14  sudo apt-get update
+   15  sudo apt-cache policy mysql-server
+   16  sudo apt install -f mysql-client=8.0.32-0ubuntu0.22.04.2 mysql-server=8.0.32-0ubuntu0.22.04.2
+   17  sudo apt-cache policy mysql-server
+   18  sudo apt download nano $(apt-rdepends nano | grep -v "^")
+   19  ll
+   20  sudo dpkg -i nano_6.2-1_amd64.deb
+   21  sudo apt-get -f install
+   22  nano
+   23  sudo dpkg --remove nano
+   24  sudo apt-get -f remove
+   25  nano
+   26  history
